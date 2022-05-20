@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="nome_usuario">Nome Completo:</label>
+        <input type="text" id="nome_usuario" name="nome_usuario"> 
+
+        <br>
+
+        <label for="email_usuario">Email:</label>
+        <input type="text" id="email_usuario" name="email_usuario">
+
+        <br>
+
+        <label for="numero_telefone">TEL.:</label>
+        <input type="text" id="numero_telefone" name="numero_telefone">
+
+        <br>
+
+        <label for="logradouro">Logradouro</label>
+        <select name="logradouro" id="logradouro">
+            <option value="0" selected>--- selecione ---</option>
+            <option value="1">Rua</option>
+            <option value="2">Avenida</option>
+        </select>
+
+        <br>
+
+        <label for="endereco_residencial">End.:</label>
+        <input type="text" id="endereco_residencial" name="endereco_residencial">
+
+        <br>
+
+        <label for="numero_residencial">N°</label>
+        <input type="number" id="numero_residencial" name="numero_residencial">
+
+        <br>
+
+        <label for="bairro">Bairro</label>
+        <select name="bairro" id="bairro">
+            <option value="0"><selected>--- selecione ---</option>
+            <option value="1">Loty</option>
+            <option value="2">Suarão</option>
+            <option value="3">Savoi</option>
+        </select>
+        <br>
+
+        <label for="cidade">Cidade</label>
+        <select name="cidade" id="cidade">
+        <option value="0" selected>--- selecione ---</option>
+        <option value="1">Praia Grande</option>
+        <option value="2">Itanhaem</option>
+        <option value="3">Peruibe</option>
+    </select>
+
+    <br>
+
+    <label for="uf">UF:</label>
+        <select name="uf" id="uf">
+            <option value="0" selected>--- selecione ---</option>
+            <option value="1">AC</option>
+            <option value="2">AL</option>
+            <option value="3">AP</option>
+            <option value="4">AM</option>
+        </select>
+
+        <br>
+
+        <label>Opção de preferência de contato</label>
+        <input type="radio" id="" name="email" >
+        <label for="email">Email</label>
+        <input type="radio" id="" name="telefone">
+        <label for="telefone">Telefone</label>
+
+        <br>
+
+        <input type="checkbox" id="li_e_concordo" name="li_e_concordo>">
+        <label for="li_e_concordo">Li e concordo com os termos</label>
+
+        <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Reiniciar preenchimento</button>
+    </form>
+    
+</body>
+</html>
