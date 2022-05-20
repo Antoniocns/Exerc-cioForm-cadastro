@@ -75,6 +75,23 @@
 
         <br>
 
+        <label for="cep">CEP.:</label>
+        <input type="number" id="cep" name="cep">
+
+        <br>
+
+        <label for="estado_civil">Estado cívil</label>
+        <select name="estado_civil" id="estado_civil">
+            <option value="0" selected>--- selecione ---</option>
+            <option value="1">Solteiro(a)</option>
+            <option value="2">Divorciado(a)</option>
+            <option value="3">Viúvo(a)</option>
+            <option value="3">Separado(a)</option>
+        </select>
+
+
+        <br>
+
         <label>Opção de preferência de contato</label>
         <input type="radio" id="" name="email" >
         <label for="email">Email</label>
@@ -91,6 +108,14 @@
         <button type="submit">Enviar</button>
         <button type="reset">Reiniciar preenchimento</button>
     </form>
+    <style>
+
+     label{
+         background-color: rgb(251, 255, 0);
+     } 
+     input{background-color: rgb(219, 218, 209);}  
+    </style>
+
     
 </body>
 </html>
